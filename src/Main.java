@@ -5,14 +5,13 @@ import java.util.Properties;
 
 public class Main {
 
-    private static final String filePath = "settings2.ini";
+    private static final String filePath = "settings.ini";
 
     public static void main(String[] args) {
 
         writeINIFile("name", "John");
         writeINIFile("lastName", "Akar");
 
-        readINIFile("name");
         readINIFile("name");
     }
 
