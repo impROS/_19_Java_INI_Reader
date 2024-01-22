@@ -5,7 +5,7 @@ import java.util.Properties;
 
 public class Main {
 
-    private static final String filePath = "settings.ini";
+    private static final String filePath = "settings2.ini";
 
     public static void main(String[] args) {
 
@@ -50,7 +50,7 @@ public class Main {
             return properties;
         } catch (IOException e) {
             e.printStackTrace();
-            return null;
+            return new Properties();
         }
     }
 }
